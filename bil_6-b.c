@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> 
+#include <stdlib.h> //для rand
 #define days 31
 int pressure[days];
 
@@ -21,7 +21,7 @@ int main()
         printf("%d\t%d\n", i + 1, pressure[i]);
     }
 
-    int cnt_reduced = 0;
+    int cnt_reduced = 0;		
     int cnt_normal = 0;			
     int cnt_increased = 0;		
     for (int i = 0; i < days; i++)
